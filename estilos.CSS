@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  width: 100vw;
+  height: 80vh;
+border: #020a0a 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+main {
+  width: 200%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(74, 147, 150, 0.1);
+}
+
+form {
+  display: grid;
+  flex-direction: initial;
+  gap: 9px;
+  margin-bottom: 10px;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  margin-top: 20px;
+  padding-top: 10px;
+  align-items: center;
+color:rgb(10, 14, 14)
+}
+
+
+
+
+h1 {
+  text-align: center;
+  color: #4CACAF;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+
+  background-color: #adeaec;
+  color: #010f11;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button {
+  background-color: #adeaec;
+  color: rgb(19, 18, 18);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #1f972f;
+}

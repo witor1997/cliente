@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
+<head> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="estilos.CSS">
+    <title>Gerenciamento</title>
 </head>
 <body>
+ <main>
+    <h1> Gerenciamento de cliente</h1>
+    
+    <form id="clientForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="click">email</label>
+        <input type="text" id="click" name="emaild" required>
+    
+        <button id="add" type="button"> Adicionar Cliente</button>
+    </form>
 
+    <h3> lista de clientes</h3>
+    
+
+<ul id="listadeclientes">
+</ul>
+  
+    </main>
     
 
 
 
 
-
-
-
+<script src="script.js"></script>
 </body>
 </html>
